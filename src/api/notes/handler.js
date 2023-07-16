@@ -34,13 +34,12 @@ class NotesHandler {
     }
   }
 
-  getNotesHandler(request) {
-    const { id } = request.params;
-    const note = this._service.getNoteById(id);
+  getNotesHandler() {
+    const notes = this._service.getNotes();
     return {
       status: 'success',
       data: {
-        note,
+        notes,
       },
     };
   }
