@@ -78,10 +78,11 @@ class NotesHandler {
         response.code(error.statusCode);
         return response;
       }
+
       // Server ERROR!
       const response = h.response({
         status: 'error',
-        message: 'Maaf, terjadi kegagalan pada server kami',
+        message: 'Maaf, terjadi kegagalan pada server kami.',
       });
       response.code(500);
       console.error(error);
@@ -109,10 +110,11 @@ class NotesHandler {
         response.code(error.statusCode);
         return response;
       }
+
       // Server ERROR!
       const response = h.response({
         status: 'error',
-        message: 'Maaf, terjadi kegagalan pada server kami',
+        message: 'Maaf, terjadi kegagalan pada server kami.',
       });
       response.code(500);
       console.error(error);
@@ -124,6 +126,7 @@ class NotesHandler {
     try {
       const { id } = request.params;
       this._service.deleteNoteById(id);
+
       return {
         status: 'success',
         message: 'Catatan berhasil dihapus',
@@ -137,10 +140,11 @@ class NotesHandler {
         response.code(error.statusCode);
         return response;
       }
+
       // Server ERROR!
       const response = h.response({
         status: 'error',
-        message: 'Maaf, terjadi kegagalan pada server kami',
+        message: 'Maaf, terjadi kegagalan pada server kami.',
       });
       response.code(500);
       console.error(error);
