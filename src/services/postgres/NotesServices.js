@@ -9,7 +9,7 @@ class NotesService {
 		this._pool = new Pool();
 	}
 
-	addNote({ title, body, tags }) {
+	async addNote({ title, body, tags }) {
 		const id = nanoid(16);
 		const createdAt = new Date().toISOString();
 		const updatedAt = createdAt;
@@ -19,11 +19,13 @@ class NotesService {
 			values: [id, title, body, tags, createdAt, updatedAt],
 		};
 
-		const result = this._pool.query(query);
+		const result = await this._pool.query(query);
 
 		if (!result.rows[0].id) {
 			throw new InvariantError('Catatan gagal ditambahkan');
 		}
+
+		return result.rows[0].id;
 	}
 
 	async getNotes() {
@@ -31,11 +33,11 @@ class NotesService {
 		return result.rows.map(mapDBToModel);
 	}
 
-	async getNotesById(id) {
+	async getNoteById(id) {
 		const query = {
 			text: 'SELECT * FROM notes WHERE id = $1',
 			values: [id],
-		}
+		};
 
 		const result = await this._pool.query(query);
 
@@ -50,10 +52,10 @@ class NotesService {
 	}
 
 	async editNoteById(id, { title, body, tags }) {
-		const updated_at = new Date().toISOString();
+		const updatedAt = new Date().toISOString();
 		const query = {
       text: 'UPDATE notes SET title = $1, body = $2, tags = $3, updated_at = $4 WHERE id = $5 RETURNING id',
-      values: [title, body, tags, updated_at, id],
+      values: [title, body, tags, updatedAt, id],
     };
 
 		const result = await this._pool.query(query);
