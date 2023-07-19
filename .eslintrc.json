@@ -13,6 +13,7 @@
         "no-console": "off",
         "indent": "off",
         "no-underscore-dangle": "off",
-        "no-tabs": "off"
+        "no-tabs": "off",
+        "import/no-extraneous-dependencies": ["error", {"Dependencies": true}]
     }
 }
