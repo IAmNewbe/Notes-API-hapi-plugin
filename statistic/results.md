@@ -6,7 +6,7 @@ Directory c:\\Workspace\\Code\\notes-app-back-end
 
 Total : 32 files,  4756 codes, 19 comments, 180 blanks, all 4955 lines
 
-[Summary](./statistic/results.md) / [Details](./statistic/details.md) / [Diff Summary](./statistic/diff.md) / [Diff Details](./statistic/diff-details.md)
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
 ## Languages
 | language | files | code | comment | blank | total |
@@ -38,4 +38,4 @@ Total : 32 files,  4756 codes, 19 comments, 180 blanks, all 4955 lines
 | src\\validator\\notes | 2 | 18 | 0 | 6 | 24 |
 | src\\validator\\users | 2 | 18 | 0 | 5 | 23 |
 
-[Summary](./statistic/results.md) / [Details](./statistic/details.md) / [Diff Summary](./statistic/diff.md) / [Diff Details](./statistic/diff-details.md)
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
