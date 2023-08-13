@@ -1,0 +1,34 @@
+"filename", "language", "JSON", "JavaScript", "JSON with Comments", "comment", "blank", "total"
+"c:\Workspace\Code\notes-app-back-end\.eslintrc.json", "JSON with Comments", 0, 0, 19, 0, 1, 20
+"c:\Workspace\Code\notes-app-back-end\migrations\1689702130697_create-table-notes.js", "JavaScript", 0, 32, 0, 1, 4, 37
+"c:\Workspace\Code\notes-app-back-end\migrations\1691874004378_create-table-users.js", "JavaScript", 0, 25, 0, 1, 4, 30
+"c:\Workspace\Code\notes-app-back-end\migrations\1691954350783_create-table-authentications.js", "JavaScript", 0, 12, 0, 1, 4, 17
+"c:\Workspace\Code\notes-app-back-end\package-lock.json", "JSON", 3819, 0, 0, 0, 1, 3820
+"c:\Workspace\Code\notes-app-back-end\package.json", "JSON", 31, 0, 0, 0, 1, 32
+"c:\Workspace\Code\notes-app-back-end\src\api\authentications\handler.js", "JavaScript", 0, 109, 0, 3, 18, 130
+"c:\Workspace\Code\notes-app-back-end\src\api\authentications\index.js", "JavaScript", 0, 20, 0, 0, 2, 22
+"c:\Workspace\Code\notes-app-back-end\src\api\authentications\routes.js", "JavaScript", 0, 18, 0, 0, 1, 19
+"c:\Workspace\Code\notes-app-back-end\src\api\notes\handler.js", "JavaScript", 0, 135, 0, 4, 18, 157
+"c:\Workspace\Code\notes-app-back-end\src\api\notes\index.js", "JavaScript", 0, 10, 0, 0, 2, 12
+"c:\Workspace\Code\notes-app-back-end\src\api\notes\routes.js", "JavaScript", 0, 28, 0, 0, 2, 30
+"c:\Workspace\Code\notes-app-back-end\src\api\users\handler.js", "JavaScript", 0, 70, 0, 2, 12, 84
+"c:\Workspace\Code\notes-app-back-end\src\api\users\index.js", "JavaScript", 0, 10, 0, 0, 1, 11
+"c:\Workspace\Code\notes-app-back-end\src\api\users\routes.js", "JavaScript", 0, 13, 0, 0, 2, 15
+"c:\Workspace\Code\notes-app-back-end\src\exceptions\AuthenticationError.js", "JavaScript", 0, 8, 0, 0, 2, 10
+"c:\Workspace\Code\notes-app-back-end\src\exceptions\ClientError.js", "JavaScript", 0, 8, 0, 0, 2, 10
+"c:\Workspace\Code\notes-app-back-end\src\exceptions\InvariantError.js", "JavaScript", 0, 8, 0, 0, 3, 11
+"c:\Workspace\Code\notes-app-back-end\src\exceptions\NotFoundError.js", "JavaScript", 0, 8, 0, 0, 3, 11
+"c:\Workspace\Code\notes-app-back-end\src\server.js", "JavaScript", 0, 54, 0, 4, 8, 66
+"c:\Workspace\Code\notes-app-back-end\src\services\inMemory\NotesService.js", "JavaScript", 0, 54, 0, 0, 18, 72
+"c:\Workspace\Code\notes-app-back-end\src\services\postgres\AuthenticationsService.js", "JavaScript", 0, 33, 0, 0, 9, 42
+"c:\Workspace\Code\notes-app-back-end\src\services\postgres\NotesServices.js", "JavaScript", 0, 61, 0, 3, 19, 83
+"c:\Workspace\Code\notes-app-back-end\src\services\postgres\UsersService.js", "JavaScript", 0, 63, 0, 0, 22, 85
+"c:\Workspace\Code\notes-app-back-end\src\tokenize\TokenManager.js", "JavaScript", 0, 17, 0, 0, 2, 19
+"c:\Workspace\Code\notes-app-back-end\src\utils\index.js", "JavaScript", 0, 16, 0, 0, 2, 18
+"c:\Workspace\Code\notes-app-back-end\src\validator\authentications\index.js", "JavaScript", 0, 23, 0, 0, 2, 25
+"c:\Workspace\Code\notes-app-back-end\src\validator\authentications\schema.js", "JavaScript", 0, 16, 0, 0, 4, 20
+"c:\Workspace\Code\notes-app-back-end\src\validator\notes\index.js", "JavaScript", 0, 11, 0, 0, 3, 14
+"c:\Workspace\Code\notes-app-back-end\src\validator\notes\schema.js", "JavaScript", 0, 7, 0, 0, 3, 10
+"c:\Workspace\Code\notes-app-back-end\src\validator\users\index.js", "JavaScript", 0, 11, 0, 0, 3, 14
+"c:\Workspace\Code\notes-app-back-end\src\validator\users\schema.js", "JavaScript", 0, 7, 0, 0, 2, 9
+"Total", "-", 3850, 887, 19, 19, 180, 4955
