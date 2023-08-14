@@ -5,8 +5,6 @@ Directory c:\\Workspace\\Code\\notes-app-back-end
 
 Total : 38 files,  4957 codes, 21 comments, 216 blanks, all 5194 lines
 
-Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
-
 ## Languages
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
